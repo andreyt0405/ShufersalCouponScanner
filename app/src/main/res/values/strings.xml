@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">שופרסל קופונים</string>
+    <string name="insert_barcode">הכנס מספר ברקוד</string>
+    <string name="gen_barcode">לחץ קבלת קוד סריקה</string>
+    <string name="invalid_code">קוד הסריקה אינו תקין נסה שנית</string>
+    <string name="empty_code">לא הוזן קוד סריקה,אנא הכנס קוד סריקה</string>
+    <string name="text_scan_to_code">נא לסרוק את הקוד המוצג, בצורה אופקית.</string>
+    <string name="here_code_display">כאן יוצג הקוד סריקה שלך.</string>
+    <string name="coupon_numb">מספר קופון:</string>
+    <string name="add_coupon_menu">להוסיף קופון לרשימה</string>
+    <string name="my_coupon_menu">לרשימת הקופנים שלי</string>
+    <string name="load_pdf_press">לטעינת PDF לחץ על התמונה</string>
+    <string name="press_load_button">טעינת שובר קנייה</string>
+    <string name="text_coupon_success">השובר נטען לרשימה בהצלחה</string>
+    <string name="text_coupon_fail">התרחשה שגיאה בטעינת השובר</string>
+    <string name="show_loaded_coupon_number">קוד השובר נמצא, לטעינה לחץ על הכפתור</string>
+    <string name="titleBrowse">נא לבחור קובץ</string>
+    <string name="couponSaveSharedPref">השובר נטען, נא להכנס לרשימת הקופונים שלי.</string>
+    <string name="couponExistSharedPref">השובר קיים במערכת, נא להכנס לרשימת הקופונים שלי.</string>
+    <string name="textCouponPrivate">השובר הינו אישי,ואינו ניתן לעברה.</string>
+    <string name="textCouponCode">מספר השבור הינו:.</string>
+    <string name="noCouponfound">לא נמצאו שוברים,נא לטעון שובר.</string>
+    <string name="couponAmount">סכום הניצול בשובר הינו:</string>
+</resources>

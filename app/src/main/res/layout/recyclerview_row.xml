@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="25dp"
+    android:background="@drawable/image_view_borders">
+    <TextView
+        android:id="@+id/recyclerTextCoupon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/textCouponPrivate"
+        android:textStyle="bold|italic"
+        android:visibility="invisible"
+        android:padding="10dp"
+        android:layout_centerHorizontal="true">
+    </TextView>
+    <TextView
+        android:id="@+id/recyclerTextNoCoupon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/noCouponfound"
+        android:padding="10dp"
+        android:layout_centerHorizontal="true">
+    </TextView>
+    <TextView
+        android:id="@+id/recyclerTextCode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/recyclerTextCoupon"
+        android:visibility="invisible"
+        android:textStyle="bold"
+        android:text="@string/textCouponCode"
+        android:layout_centerHorizontal="true">
+    </TextView>
+    <TextView
+        android:id="@+id/recyclerCouponAmount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/recyclerTextCode"
+        android:visibility="invisible"
+        android:textStyle="bold"
+        android:text="@string/couponAmount"
+        android:layout_centerHorizontal="true">
+    </TextView>
+    <ImageView
+        android:id="@+id/ImageRecyclerView"
+        android:layout_width="match_parent"
+        android:layout_below="@+id/recyclerCouponAmount"
+        android:background="@drawable/image_view_borders"
+        android:src="@drawable/ic_baseline_picture_as_pdf_24"
+        android:layout_height="match_parent">
+    </ImageView>
+
+</RelativeLayout>
